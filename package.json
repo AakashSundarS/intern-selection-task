@@ -1,0 +1,9 @@
+{
+  "name": "intern-selection-task",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/ArunMurugan78/intern-selection-task",
+  "author": "Arun Murugan <arunmurugan200@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
