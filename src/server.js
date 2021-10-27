@@ -1,9 +1,11 @@
 const express = require("express");
+const formRouter = require("./routes/form");
+
+require("./db/connect");
 
 const app = express();
 
-app.get("/", (_, res) => {
-  res.send("Hello World!");
-});
+app.use(express.json());
+app.use("/form", formRouter);
 
 module.exports = app;
