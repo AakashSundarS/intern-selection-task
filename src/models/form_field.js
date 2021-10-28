@@ -11,6 +11,10 @@ const FormFieldSchema = new Schema({
     },
     required: [true, 'form field should have "type" property'],
   },
+  data: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = { FormFieldSchema, fieldTypes };
